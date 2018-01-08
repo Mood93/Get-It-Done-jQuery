@@ -14,7 +14,6 @@ $("ul").on("click", "span", function (event) {
 });
 
 
-
 $("input[type= 'text']").keypress(function (event) {
     
     if (event.which === 13) {
@@ -26,7 +25,7 @@ $("input[type= 'text']").keypress(function (event) {
     }
 });
 
-
+//plus toggle
 $(".add").click(function () {
     $("input[type= 'text']").fadeToggle();
 });
